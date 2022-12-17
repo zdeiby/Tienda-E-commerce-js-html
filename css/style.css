@@ -1,0 +1,189 @@
+
+*{
+    font-family: sans-serif;
+}
+body {
+    background-image: url("../imagenes/image1.jpg");
+    font-size: 10px;
+   
+}
+
+
+.item-image{
+    width: 180px;
+    height: 180px;
+    padding:0px 0px 0px 0px;
+  
+}
+
+
+
+.item{
+
+    border-bottom: 4px solid #017bab;
+   
+}
+
+.comprarButton {
+     position:relative ;
+    height: 40px;
+    width: 100px;
+    background:  #017bab;
+    color: white;
+    left:120px;
+    bottom:65px;
+    
+    
+}
+
+.cuadro1 {
+    
+    color: rgb(5, 0, 0);
+    padding:0px 0px 0px 0px;
+    display: inline-block;
+   
+}
+.cuadro2{
+    
+    color: rgb(5, 0, 0);
+    padding:0px 0px 0px 0px;
+    display: inline-block;
+   
+}
+.cuadro3{
+    
+    color: rgb(5, 0, 0);
+    padding:0px 0px 0px 0px;
+    display: inline-block;
+   
+}
+.cuadro4{
+    
+    color: rgb(5, 0, 0);
+    padding:0px 0px 0px 0px;
+    display: inline-block;
+   
+}
+
+
+.addToCart {
+    height: 20px;
+    background:  pink;
+    color: black;
+    margin-bottom: 16px;
+    
+}
+
+
+
+
+.shopping-cart-total{
+ 
+    font-size:17px;
+    font-family:arial;
+
+}
+
+
+
+
+
+.home{
+    margin-top: -10px;
+    margin-left:-10px;
+    margin-right:-8px;
+    display:flex;
+    flex-wrap: wrap;
+    background:#756e6e;
+}
+.in-flex {
+    flex:10;
+    min-width: 0px;
+     margin-top:10px;
+    background:#756e6e;
+    margin-left:0px;
+    
+}
+.in-flex:first-child{
+    flex: 2;
+    padding: 0px;
+     background:#4e4d4d;
+    margin-top:0px;
+    margin-top:10px;
+    margin-left:10px;
+    display:block;
+}
+
+.in-flex div{
+
+    padding:0px;
+    background-color: white;
+    margin:0px;
+    background:#756e6e;
+   
+}
+
+.in-flex2{
+
+    padding:10px;
+    background-color: white;
+    margin:0px;
+    background:#756e6e;
+   
+}
+
+input {
+    padding:10px;
+    width:100%  
+    
+}
+
+input::placeholder {
+    color:#017bab;
+    
+    
+}
+input::selection{
+    color: aqua; 
+    background: white;
+}
+
+a{
+    text-decoration: none;
+}
+b{
+    color: black;
+    font-size: 12px;
+}
+
+
+
+
+
+
+.inicio1{
+    position: sticky;   /* queremos que las celdas estĆĀ©n fijas    */
+    top: 0;             /* en lo mĆĀ�s alto de la tabla/pĆĀ�gina.     */
+    background: white;  /* esto deberĆĀ­a ser el fondo de la celda  */
+    z-index: 1;  
+}
+
+.inicio1 img{
+    width: 35px;
+    height: 35px;
+    display:iblock;
+   
+}
+.tabla{
+    padding:0px;
+
+}
+
+h1{
+    display: inline-block;
+}
+
+h5{
+    font-size: 12px;
+}
+

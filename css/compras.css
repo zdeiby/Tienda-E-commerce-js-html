@@ -1,0 +1,403 @@
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    background-image: url("../imagenes/image1.jpg");
+    font-size: 10px;
+   
+}
+
+
+.item img{
+    width: 186px;
+    height: 186px;
+    padding:0px 0px 0px 0px;
+  
+}
+
+
+
+.item{
+
+    border-bottom: 4px solid #017bab;
+   
+}
+
+.comprarButton {
+     position:relative ;
+    height: 40px;
+    width: 100px;
+    background:  pink;
+    color: black;
+    left:120px;
+    bottom:65px;
+    
+    
+}
+
+.cuadro1 {
+    
+    color: rgb(5, 0, 0);
+    padding:0px 0px 0px 0px;
+    display: inline-block;
+   
+}
+.cuadro2{
+    
+    color: rgb(5, 0, 0);
+    padding:0px 0px 0px 0px;
+    display: inline-block;
+   
+}
+.cuadro3{
+    
+    color: rgb(5, 0, 0);
+    padding:0px 0px 0px 0px;
+    display: inline-block;
+   
+}
+.cuadro4{
+    
+    color: rgb(5, 0, 0);
+    padding:0px 0px 0px 0px;
+    display: inline-block;
+   
+}
+
+
+.addToCart {
+    height: 20px;
+    background:  pink;
+    color: black;
+    margin-bottom: 16px;
+    
+}
+
+.item-details{
+
+    margin-left :70px ;
+    
+}
+.showP img{
+
+width: 50px;
+
+height: 50px;
+
+padding:0px 0px 0px 0px;
+}
+h4{
+   
+    color: black;
+    font-size: 15px;
+}
+
+.row{
+    display:inline-block;   
+}
+.shoppingCartItem{
+    position:relative ;
+   
+   
+    
+    height:50px;
+    width: 750px;
+    
+}
+.imagen{
+    position:relative;
+    margin:50px auto;
+    left: 125px;
+    bottom:150px;
+}
+
+.shoppingCartItemQuantity{
+    position:relative;
+    margin:50px auto;
+    left: 190px;
+    bottom:408px;
+}
+.buttonDelete{
+     position:relative;
+     margin:50px;
+     left: 250px;
+     bottom: 410px;
+}
+.shoppingCartItemPrice{
+     position:relative;
+     margin:50px auto;
+     left: 270px;
+     bottom: 285px;
+     font-size:15px;
+     display:inline-block;
+}
+
+.a{
+  
+   
+    left:0px;
+    bottom:0px;
+    font-size:15px;
+    display:inline-block;
+}
+.b{
+    position:relative;
+    left: 50px;
+    bottom:0px;
+    font-size:15px;
+    display:inline-block;
+}
+.c{
+    
+position:relative;
+    
+left: 75px;
+    
+bottom:0px;
+    
+font-size:15px;
+    
+display:inline-block;
+}
+.d{
+   
+position:relative;
+   
+left: 85px;
+   
+bottom:0px;
+   
+font-size:15px;
+   
+display:inline-block;
+}
+.e{
+   
+position:relative;
+   
+left: 100px;
+   
+bottom:0px;
+   
+font-size:15px;
+   
+display:inline-block;
+}
+.shoppingCartItemTitle{
+    position:relative ;
+    left:0px;
+    font-size:12px;
+    bottom:36px;
+}
+
+.container{
+    display:inline-block;
+}
+.shopping-cart{
+   
+   width: 450px;
+}
+footer{
+    display:inline-block;
+}
+.text-center{
+    display:inline-block;
+}
+
+
+
+.searchs{
+    padding:10px;
+    width:100%  
+    
+}
+
+
+
+
+
+
+.shopping-cart-total{
+ 
+    font-size:17px;
+    font-family:arial;
+
+}
+
+
+
+
+
+.home{
+    margin-top: -10px;
+    margin-left:-10px;
+    margin-right:-8px;
+    display:flex;
+    flex-wrap: wrap;
+    background:#756e6e;
+}
+.in-flex {
+    flex:10;
+    min-width: 0px;
+     margin-top:10px;
+    background:#756e6e;
+    margin-left:0px;
+    
+}
+.in-flex:first-child{
+    flex: 2;
+    padding: 0px;
+     background:#4e4d4d;
+    margin-top:0px;
+    margin-top:10px;
+    margin-left:10px;
+    display:block;
+}
+
+.in-flex div{
+
+    padding:0px;
+    background-color: white;
+    margin:0px;
+    background:#756e6e;
+   
+}
+
+.in-flex2{
+
+    padding:10px;
+    background-color: white;
+    margin:0px;
+    background:#756e6e;
+   
+}
+
+input {
+    padding:10px;
+    width:7%  
+    
+}
+
+input::placeholder {
+    color:#017bab;
+    
+    
+}
+input::selection{
+    color: aqua; 
+    background: white;
+}
+
+a{
+    text-decoration: none;
+}
+b{
+    color: black;
+    font-size: 12px;
+}
+
+
+
+
+
+
+.inicio1{
+    position: sticky;   /* queremos que las celdas estÄ†ÂƒÄ€Â©n fijas    */
+    top: 0;             /* en lo mÄ†ÂƒÄ€ï¿½s alto de la tabla/pÄ†ÂƒÄ€ï¿½gina.     */
+    background: white;  /* esto deberÄ†ÂƒÄ€Â­a ser el fondo de la celda  */
+    z-index: 1;  
+}
+
+.inicio1 img{
+    width: 35px;
+    height: 35px;
+    display:iblock;
+   
+}
+.tabla{
+    padding:0px;
+
+}
+
+h1{
+    display: inline-block;
+}
+
+
+
+h10 {
+    padding: 50px;
+}
+H11 {
+    padding: 30px;
+}
+
+h12{
+    padding-left: 30px;
+}
+h13{
+    padding-left: 78px;
+}
+h14{
+    padding-left: 30px;
+}
+h15{
+    padding-left: 40px;
+}
+
+.showName{
+    display: inline-block;
+    padding-left: 30px;
+    position: relative;
+}
+.showPrice{
+   
+    display: inline-block;
+    padding-left: 30px;
+ 
+}
+.showCantity{
+    display: inline-block;
+   
+    padding-left: 30px;
+   
+  
+}
+
+.showTotal{
+   
+    display: flex;
+    padding-left: 200px;
+   
+}
+
+.cuadro{
+    display: inline-block;
+   
+  
+}
+p{
+    border: 1px solid aquamarine;
+}
+.comprar{
+   
+       height: 40px;
+       width: 100px;
+       background:  #017bab;
+       color: white;
+       left:120px;
+       bottom:65px;
+       
+
+}
+
+.borrar{
+
+    
+    height: 40px;
+    width: 100px;
+    background:  #017bab;
+    color: white;
+
+}
